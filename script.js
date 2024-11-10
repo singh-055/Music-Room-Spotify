@@ -10,57 +10,57 @@ let songs = [
   {
     songName: "Koi Tumsa Nahin-Krrish",
     filePath: "1.mp3",
-    coverPath: "covers/1.0.jpg",
+    coverPath: "1.0.jpg",
   },
   {
     songName: "De Ijazat-Faisu",
     filePath: "2.mp3",
-    coverPath: "covers/2.0.jpg",
+    coverPath: "2.0.jpg",
   },
   {
     songName: "Dil Jaaniye-Love",
     filePath: "3.mp3",
-    coverPath: "covers/3.0.jpg",
+    coverPath: "3.0.jpg",
   },
   {
     songName: "KINNA SONA-LOFI",
     filePath: "4.m4a",
-    coverPath: "covers/4.0.jpeg",
+    coverPath: "4.0.jpeg",
   },
   {
     songName: "Maine Khudko-RaginiMMS2",
     filePath: "5.m4a",
-    coverPath: "covers/5.0.jpg",
+    coverPath: "5.0.jpg",
   },
   {
     songName: "Goonja Sa Hai Koi Iktara",
     filePath: "6.mp3",
-    coverPath: "covers/6.0.jpg",
+    coverPath: "6.0.jpg",
   },
   {
     songName: "Aaja We Mahiya-I.Khan",
     filePath: "7.m4a",
-    coverPath: "covers/7.0.jpeg",
+    coverPath: "7.0.jpeg",
   },
   {
     songName: "Ishq v Kiya re Maula",
     filePath: "8.mp3",
-    coverPath: "covers/8.0.jpg",
+    coverPath: "8.0.jpg",
   },
   {
     songName: "Love Me Like You Do",
     filePath: "9.m4a",
-    coverPath: "covers/9.0.jpg",
+    coverPath: "9.0.jpg",
   },
   {
     songName: "Love You Zindegi",
     filePath: "10.mp3",
-    coverPath: "covers/10.0.jpg",
+    coverPath: "10.0.jpg",
   },
   {
     songName: "Jaan Nisar",
     filePath: "11.mp3",
-    coverPath: "covers/11.0.jpeg",
+    coverPath: "11.0.jpeg",
   },
 ];
 
