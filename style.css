@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Fira+Code:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bebas+Neue&family=Fira+Code:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url("guitarcursor1.png"), auto;
+}
+.aboutInfo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.342);
+  font-family: "Arima";
+  font-size: 10px;
+  position: absolute;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 130px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding: 5px;
+}
+body {
+  background-image: url("bg1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s ease-in;
+}
+nav {
+  font-family: "Arima";
+  font-weight: 400;
+  /* border: 2px white solid; */
+  position: absolute;
+  z-index: 1;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 45px;
+  color: white;
+}
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  width: 48px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.previewplay {
+  height: 500px;
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+}
+.previewPic {
+  height: 350px;
+  width: 350px;
+  background-image: url("previewbg.gif");
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 30px;
+  background-size: cover;
+  margin-top: 40px;
+  box-shadow: -30px 0px 300px #000000;
+}
+
+.currentSong {
+  /* border: 2px rgb(255, 255, 255) solid; */
+  color: white;
+  font-family: "Arima";
+  margin-top: 76%;
+  margin-left: 20px;
+  display: flexbox;
+}
+.currentSong h1 {
+  height: 45px;
+}
+
+.playsBar {
+  /* border: 2px black solid; */
+  width: 50%;
+}
+.hstick {
+  position: fixed;
+  height: 50px;
+  width: 455px;
+  color: rgb(255, 255, 255);
+  font-family: "Arima";
+  position: absolute;
+}
+.songList {
+  background-color: rgba(0, 0, 0, 0.354);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 330px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: "Arima";
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.songItemContainer {
+  width: 450px;
+  height: 240px;
+  /* border: 2px white solid; */
+  margin-top: 50px;
+  position: fixed;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.songItem {
+  /* padding: 10px; */
+  height: 50px;
+  /* width: 100%; */
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.265);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  /* cursor: pointer; */
+}
+.songItem:hover {
+  background-color: rgba(255, 255, 255, 0.482);
+  font-weight: 600;
+  transition: opacity 0.5s ease;
+}
+.songItem img {
+  margin-left: 12px;
+  width: 40px;
+  border-radius: 10px;
+  border: 2px rgba(255, 255, 255, 0.532) double;
+  background-size: cover;
+}
+.timestamp {
+  margin: 0 20px;
+}
+.timestamp i {
+  margin-left: 8px;
+  /* cursor: pointer; */
+}
+.play {
+  width: 50%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.354);
+  margin-top: 30px;
+  border-radius: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* border: 2px black solid; */
+}
+.icon i {
+  margin: 0 5px;
+  color: rgba(255, 255, 255, 0.767);
+  position: relative;
+}
+.icon i:hover {
+  /* cursor: pointer; */
+}
+#myProgressBar {
+  margin: 0 0 0 15px;
+  width: 50vh;
+  /* cursor: pointer; */
+  color: linear-gradient(
+    90deg,
+    rgba(0, 254, 255, 1) 0%,
+    rgba(213, 0, 255, 1) 50%,
+    rgba(0, 245, 255, 1) 100%
+  );
+}
+.equi {
+  height: 70px;
+  mix-blend-mode: screen;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gifimg {
+  /* border: 2px white solid; */
+  margin-top: 1090px;
+  background-size: cover;
+  height: 100px;
+  width: 500px;
+  background-image: url("equalizereffect.gif");
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+.changeBG {
+  height: 80px;
+  width: 100%;
+  /* border: 2px white solid; */
+  margin-top: 200px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.changeBG i {
+  /* border: 2px white solid; */
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.2;
+}
+.changeBG i:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in;
+  /* cursor: pointer; */
+}
